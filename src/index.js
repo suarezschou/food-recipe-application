@@ -14,7 +14,6 @@ const App = () => {
   
   useEffect(() =>{
     getRecipes();
-    console.log("effect only runs 1 time now");
   },[query]);
 
   const getRecipes = async () => { 
